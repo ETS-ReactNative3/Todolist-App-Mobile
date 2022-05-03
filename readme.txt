@@ -21,6 +21,13 @@ npm install react-native-progress --save
 
 
 
+Pour utiliser la base de donnée GraphQL, il vous faut une VM ou alors Neo4J sur Windows.
+- installez Neo4J, par exemple la version Desktop (avec interface graphique)
+- créez un projet puis une base de données dans ce projet, en précisant le mot de passe rootroot
+- dans les plug-ins, activez APOC, qui permet de gérer les droits d'accès
+
+
+
 Pour lancer, il faut ainsi exécuter les commandes suivantes dans 2 terminaux différents :
 
 Dans la racine : npm start
